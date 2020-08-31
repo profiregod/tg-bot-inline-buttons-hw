@@ -1,5 +1,4 @@
-from aiogram.dispatcher.filters import Command
-from aiogram.types import Message, CallbackQuery
+from aiogram.types import CallbackQuery
 
 from keyboards.inline.callback_datas import like_callback, dislike_callback
 from loader import dp
